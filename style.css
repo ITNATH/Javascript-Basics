@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,10,0,7),rgba(4,9,10,0,7)),url(C:\Users\user\Pictures\image\banner.jpg.jpg);
+    background-position: center;
+    background-size: relative;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 20% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 300px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style:none;
+    display: inline-block;
+    padding: 8% 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: gfff;
+    text-decoration: none;
+    font-size: 13px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 700){
+    .text-box h1{
+        font-size: 20px;
+        }
+
+    }
+}
+.nav-links ul li{
+    display: block;
+} 
