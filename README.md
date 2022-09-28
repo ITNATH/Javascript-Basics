@@ -75,3 +75,29 @@ alert("Hello World")
 
 prompt()
 confirm()
+
+
+ //operand operation and variables //
+// +,* OPERATOR//
+//2,4 OPRAND//
+// let a variable//
+  
+let a= 2;
+let b= 4;
+
+let x= "a+b"
+
+console.log("x")
+
+/* LOOPS
+FOR, WHILE, DO WHILE, FOR..IN, FOR..OF
+
+LOOPS STATEMENT HELP YOU AVOID REAPETION
+ 
+EG
+console.log("Hello world");
+
+FOR'a constant'
+
+*/
+
