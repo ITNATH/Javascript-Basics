@@ -1,14 +1,19 @@
 # Javascript-Basics
 
-// this sign is used for one line comment//
-/*
-this sign is used for multiple line
-comment
+                         // COMMENT//
 
-STATEMENT are each line of code WRITTEN.
+// SINGLE LINE COMMENT//   /*MULTIPLE LINE COMMENT*/
+
+
+/*
+
+              STATEMENT
+
+STATEMENT are each line OR WORD of code WRITTEN.
+
 */
                    // RULES//
-// MOST VARIABLE END WITH SEMI-COLUME, FOR JAVASCRIPT ITS NOT NECCESSARY ALL THE TIME//
+// MOST VARIABLE AND STATEMENT END WITH SEMI-COLUME;, FOR JAVASCRIPT ITS NOT NECCESSARY ALL THE TIME//
 
 // let, class, function, return. are all reserved key words
 
@@ -78,10 +83,26 @@ confirm()
 
 
  //operand operation and variables //
-// +,* OPERATOR//
-//2,4 OPRAND//
-// let a variable//
+/*      
+
+ * +,* OPERATOiN
+
+ 2,4 OPRAND
+
+ let a variable
+
+     EXPRESSION
+++ incremental variable
+-- decrementa variable
+= " " proceed a quote
+== EQUAL TO WITH LESS ACCURACY
+=== EQAULT TO WITH DETAILED ACCURACY
+
+ UNINARY VARIABL eg -B
+ BINARY VIAIABLE eg A+B
   
+*/
+
 let a= 2;
 let b= 4;
 
@@ -95,9 +116,27 @@ FOR, WHILE, DO WHILE, FOR..IN, FOR..OF
 LOOPS STATEMENT HELP YOU AVOID REAPETION
  
 EG
-console.log("Hello world");
 
-FOR'a constant'
+UNSTEAD OF THIS
+ WE USE LOOP eg FOR LOOP
+
+  FOR'is a constant' / 
+/i means index/
+  THEN A BRACKET
+(1st INPUT: INITIACIAL EXPRESSION EG i=0;
+2nd input: condition i>5
+3rd Incremenal statement )
+4rd A CODE BLOCK{ }  
+5th A STATEMENT INSIDE THE BLOCK console.log() 
 
 */
+
+console.log("Hello world");
+console.log("Hello world");
+console.log("Hello world");
+console.log("Hello world");
+
+for(i=0;i>5;i++){
+    console.log("HELLO WORLD")
+}
 
