@@ -141,4 +141,7 @@ for(i=0;i>5;i++){
 }
 
        //METHOD ARE KEY WORD THAT REFRENCE OTHER VALUE
+          E.G .LENGHT 
+               .THIS
+       // THE{. AND []}SIGN IS USED TO /ADD READ AND ACCESS/
 
