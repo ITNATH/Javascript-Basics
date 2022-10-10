@@ -140,3 +140,5 @@ for(i=0;i>5;i++){
     console.log("HELLO WORLD")
 }
 
+       //METHOD ARE KEY WORD THAT REFRENCE OTHER VALUE
+
