@@ -94,7 +94,7 @@ confirm()
      EXPRESSION
 ++ incremental variable
 -- decrementa variable
-= " " proceed a quote
+= " " proceed a quote/assign value/
 == EQUAL TO WITH LESS ACCURACY
 === EQAULT TO WITH DETAILED ACCURACY
 
@@ -139,9 +139,31 @@ console.log("Hello world");
 for(i=0;i>5;i++){
     console.log("HELLO WORLD")
 }
-
-       //METHOD ARE KEY WORD THAT REFRENCE OTHER VALUE
+    
+        //  OBJECT can accept and multiple operation, these are the two ways to declear an operation.
+  
+    let user= {}
+    let users = newObjeect{}
+    
+     //METHOD ARE KEY WORD THAT REFRENCE OTHER VALUE
+     
           E.G .LENGHT 
                .THIS
-       // THE{. AND []}SIGN IS USED TO /ADD READ AND ACCESS/
+       // THE{.dot AND []}SIGN IS USED TO /ADD READ AND ACCESS/
+       
+       let users= {}
+    users.name= "victor"
+    users['age']=28;
 
+    console.log (users);
+    
+    
+      //    function,two ways to declear function/ arrow function and declearation function.
+              
+                function users () {
+                }
+              &
+              const users = ()=> {}
+    
+    
+    
