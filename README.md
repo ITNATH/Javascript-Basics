@@ -426,6 +426,198 @@ add(10,5)
                                        EXPRESSION
                               let people= "They much"   or
                             const numarea = function (l,b){ area = l*b}
+                            
+                            
+                            
+ // FUNCTION THAT CALCULATE AREA WHICH IS LENGHT * BREAHT
+
+
+
+
+
+                               // function Declaration function calcarea (l,b)
+
+                              /*  function calcarea (l,b){
+
+                                area = l*b
+                                return area;
+
+                               } */
+
+                               //console.log(calcarea(5,5));
+
+                               // function Expression  const calcarea = function (l,b) {
+
+                               /* const calcarea = function (l,b) {
+
+                                area = l*b;
+                                return area;
+
+                               }
+                               console.log(calcarea(5,5));
+ */
+
+                           // function Arow  const calcarea = ()=>
+
+                           //const calcarea = (l,b)=> l*b; console.log(calcarea(5,5));
+
+                           // same as
+/*
+                           const calcarea = (l,b)=> {
+
+                            area = l*b;
+                                return area;
+                           }
+                           console.log(calcarea(5,5)); */
+
+
+
+
+
+                           /*
+
+
+                           CREATE A FUNCTION THAT ACCEPT ARRAY OF NUMBERS AND  OUTPUT THE AVERAGE OF THE INPUTED ARRAY NUMBERS
+
+
+                         EXAMPLE
+                         INPUT = [5,10,15]
+                         OUTPUT = 10;
+
+                           */
+
+                        /*  function findAverage(array){
+                            let average = 0;
+                            for ( let i = 0; i < array.lenght; i++) {
+                            let addemptynum = array[i]
+                            average += addemptynum
+                            average = average/array.lenght
+                         }
+
+                         return average;
+                        }
+                        findAverage ([10,10,15]);
+                        console.log(findAverage); */
+                       /*  let val = [10,10,15]
+                        let sum = 0
+                        for ( let i = 0; i < val.lenght; i++) {
+                            sum += val[i];
+                        }
+                        console.log(sum); */
+
+                       /*  let vals = [2,2]
+                        let sum = 0
+                        for ( let val of vals) {
+                            sum += vals;
+                        }
+                        console.log(sum); */
+
+
+
+
+
+
+
+
+                        /*
+
+                        *WRITE IN A FUNCTION THAT TAKE-UP ARRAY function findArray(array) {}
+                        *CREATE VARIABLES TO HOLD AVERAGE       let average = 0
+                        *LOOP THROUGHT THE ARRAY                for( i=0,i< array.lenght,i++) {}
+                        *ADD EMTPY VARIABLE TO EACH INDEX       let addemptynum = array[i]
+                                                                average+= addemptynum
+                                                                 }
+                         *DIVIDE BY THE LENGHT                   average = average / array.length
+                                                                 return average;
+                                                             }
+
+                        *RETURN VARIABLE.                       findAverage([5,10,15])
+
+
+                        */
+
+                   /*         let x = 0;
+                           let array = [2,2,2,2]
+                        function sum () {
+                            for [ i = 0, i < array.lenght, i++ ] {
+                                let num = array[i]
+                                sum+= num
+
+
+                            }
+
+                          return x;
+                        }
+
+
+                          console.log(sum/);
+ */
+                      // increment sign in javacript
+
+                        //  let x = 3;
+                       //   x++
+                         // console.log(x);
+                        // ++x
+                         //console.log(x);
+
+                        //  run a loop incremental and Decreamental
+
+            //  for(let i = 0; i < 5; i++) {
+
+            //  console.log('loop' + i);
+
+            //  }
+/* 
+             for(let i = 5; i > 0; i--) {
+              console.log('loop' + i);
+              if (i === 3) continue;
+             }
+ */
+
+             /*  const names = ['Bless', 'Nath', 'Itoya', 'Godinus'];
+
+             for (let i = 0; i < names.lenght; i++) {
+             console.log(names[i]); 
+
+             }
+ */
+                //FOR OF loop
+
+                //const names = ['Bless', 'Nath', 'Itoya', 'Godinus'];
+
+             /* for ( name of names) {
+             console.log(name);
+
+             } */
+
+             // FOR IN loop
+
+             /* const names = {firstname:'Nath', lastname:'Bless'}
+
+                for (key in names)console.log(names[key]); */
+
+                        //for whileand do while loop
+
+                        let i = 0
+                        while (i < 10) {
+                          console.log(i);
+                          i++;
+                          if (i === 5)continue;
+                            
+                        }
+                        
+
+             /* let i=0
+             do { if ( i === 5) continue;
+              i++;
+             console.log(i);      
+            
+             } while (i < 10); */
+
+             const names = ['Bless', 'Nath', 'Itoya', 'Godinus'];
+             names.forEach(names => {
+             console.log(names);
+             });
 
     
     
